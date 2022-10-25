@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --violet: #9356DC;
+    --rose: #FF79DA;
+    --vert-clair: #99E2D0;
+}
+
+body {
+    max-width: 768px;
+    margin: auto;
+    font-family: Roboto, sans-serif;
+}
+
+/********************************
+*         HEADER / LOGO         *
+********************************/
+
+header {
+    padding: 1rem;
+    box-shadow: 0 0 0.5rem rgb(0 0 0 / 25%);
+    position: relative;
+    z-index: 1000;
+}  
+
+.logo {
+    font-family: Shrikhand, "cursive";
+    margin: 0;
+    text-align: center;
+}
+
+header p {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+/********************************
+*             LIEU              *
+********************************/
+
+.lieu {
+    display: flex;
+    justify-content: center;
+    padding: 1.25rem 1rem;
+    background-color: #F3F3F3;
+    font-size: 1.2rem;
+    position: relative;
+}
+
+.lieu__icon {
+    margin-right: 1rem;
+}
+
+.lieu__text {
+    font-weight: 700;
+}
+
+.explore-restaurant {
+    padding: 2rem;
+    text-align: center;
+    background-color: #fafafa;
+}
+
+.explore-restaurant h2 {
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.explore-restaurant__title {
+    margin: 0;
+}
+
+.explore-restaurant__subtitle {
+    font-weight: 300;
+    margin: 1.5rem 0;
+}
+
+.explore-restaurant__btn {
+    border: 0;
+    border-radius: 100px;
+    padding: 0.75rem 1.5rem;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition-duration: 0.25s;
+    box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
+    background-color: #686868;
+    background-image: linear-gradient(0deg,rgba(147,86,220,.9),rgba(255,121,218,.9));
+}
