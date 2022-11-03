@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+:root {
+  --rose: #FF79DA;
+  --violet: #9356DC;
+  --vert-clair: #99E2D0;
+}
+
+body {
+  margin: auto;
+  font-family: Roboto, sans-serif;
+}
+
+header {
+  height: 75px;
+  padding: 1rem;
+  z-index: 1000;
+  position: relative;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
+  background-color: white;
+}
+header p {
+  display: block;
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+.logo {
+  margin: 0;
+  text-align: center;
+  font-size: 33px;
+  font-family: Shrikhand, "cursive";
+}
+
+.lieu {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 50px;
+  padding: 0.9rem;
+  font-size: 1.2rem;
+  background-color: #F3F3F3;
+}
+.lieu__icon {
+  margin-right: 1rem;
+}
+.lieu__text {
+  font-weight: 700;
+}
+
+.explore-restaurant {
+  height: 315px;
+  padding: 2rem;
+  text-align: center;
+  background-color: #fafafa;
+}
+.explore-restaurant h2 {
+  display: block;
+  font-size: 1.85em;
+  font-weight: bold;
+}
+.explore-restaurant__title {
+  margin: 0;
+}
+.explore-restaurant__subtitle {
+  margin: 1.5rem 0;
+  font-weight: 300;
+  font-size: 1.25rem;
+}
+.explore-restaurant__btn {
+  position: relative;
+  top: 22px;
+  border: 0;
+  border-radius: 100px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  transition-duration: 0.25s;
+  box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  background-color: #686868;
+  background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+}
+
+.functioning {
+  height: 500px;
+  padding: 2rem 1rem;
+  background-color: white;
+}
+.functioning__title {
+  margin-top: 26px;
+  margin-left: 0.75rem;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+.functioning__setups {
+  margin-top: 25px;
+  padding: 0;
+  list-style: none;
+  counter-reset: compteListe;
+}
+.functioning__setup {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 2rem;
+  border-radius: 1.85rem;
+  background-color: #f6f6f6;
+  margin: 1rem 6px 1.75rem 1.25rem;
+  box-shadow: 0rem 0.25rem 0.5rem rgba(0, 0, 0, 0.125);
+}
+.functioning__setup:first-child {
+  margin-top: 0;
+}
+.functioning__setup:last-child {
+  margin-bottom: 0;
+}
+.functioning__setup::before {
+  counter-increment: compteListe 1;
+  content: counter(compteListe) " ";
+  background: #9356DC;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: absolute;
+  left: -0.75rem;
+}
+.functioning__icon {
+  margin-right: 1rem;
+  color: #7e7e7e;
+  font-size: 1.35rem;
+}
+
+.text {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */

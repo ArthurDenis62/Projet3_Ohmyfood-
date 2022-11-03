@@ -14,9 +14,7 @@
 
 body {
     margin: auto;
-    max-width: 420px;
     font-family: Roboto, sans-serif;
-    background-color: black;
 }
 
 /********************************
@@ -136,6 +134,7 @@ header p {
 
 .functioning__setup {
     display: flex;
+    align-items: center;
     position: relative;
     padding: 2rem;
     border-radius: 1.85rem;
@@ -174,6 +173,6 @@ header p {
 }
 
 .text {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: bold;
 }
