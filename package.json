@@ -1,8 +1,8 @@
 {
-  "scripts":{
-    "sass": "sass --watch sass/main.scss css/style.css"
+  "scripts": {
+    "sass": "sass --watch sass/main.scss css/styles.css"
   },
   "dependencies": {
-    "sass": "^1.55.0"
+    "sass": "^1.56.1"
   }
 }
